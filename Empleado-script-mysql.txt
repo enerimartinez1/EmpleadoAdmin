@@ -1,0 +1,32 @@
+mysql> create database neri;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use neri;
+Database changed
+mysql>
+
+
+
+CREATE TABLE empleado (
+idempleado INT NOT NULL AUTO_INCREMENT,
+nombre varchar(50),
+app varchar(50),
+apm varchar(50),	
+edad int(9),
+direccion varchar(50),
+PRIMARY KEY (idempleado));
+
+
+CREATE TABLE exempleado (
+idempleado_ex INT NOT NULL AUTO_INCREMENT,
+nombre_ex varchar(50),
+app_ex varchar(50),
+apm_ex varchar(50),	
+edad_ex int(9),
+direccion_ex varchar(50),
+PRIMARY KEY (idempleado_ex));
+
+
+
+
+
